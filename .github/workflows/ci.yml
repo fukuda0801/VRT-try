@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  run-biome-and-jest:
+  run-ci:
     runs-on: ubuntu-latest
 
     strategy:
@@ -17,7 +17,10 @@ jobs:
         node-version: [20.x]
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # フルのGit履歴を取得
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
