@@ -14,8 +14,14 @@
     "chromatic": "npx chromatic --project-token=chpt_bdf523693ac5f8b"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^5.16.13",
+    "@mui/material": "^5.16.13",
+    "axios": "^1.7.9",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.1"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.3",
@@ -31,6 +37,7 @@
     "@types/node": "^22.10.2",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.3.4",
     "chromatic": "^11.20.2",
     "eslint": "^9.17.0",
