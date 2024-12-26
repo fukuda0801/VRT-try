@@ -1,8 +1,14 @@
+import { BrowserRouter } from 'react-router-dom';
+import AppRouter from './routes/AppRouter';
+import { AppThemeProvider } from './providers/AppThemeProvider';
+
 const App: React.FC = () => {
   return (
-    <div>
-      <p>hello world</p>
-    </div>
+    <BrowserRouter>
+      <AppThemeProvider>
+        <AppRouter />
+      </AppThemeProvider>
+    </BrowserRouter>
   );
 };
 
