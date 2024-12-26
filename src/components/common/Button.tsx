@@ -20,10 +20,10 @@ export default Button;
 const StyledButton = styled(MuiButton)(({ theme }) => ({
   borderRadius: 12,
   borderColor: theme.palette.primary.main,
-  borderWidth: 1,
+  borderWidth: 2,
   fontSize: theme.typography.size.lg,
   fontWeight: theme.typography.fontWeightBold,
-  height: 52,
+  height: 50,
   padding: 16,
   '&:hover': {
     borderWidth: 2,
