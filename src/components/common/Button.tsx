@@ -23,7 +23,7 @@ const StyledButton = styled(MuiButton)(({ theme }) => ({
   borderWidth: 2,
   fontSize: theme.typography.size.lg,
   fontWeight: theme.typography.fontWeightBold,
-  height: 50,
+  height: 48,
   padding: 14,
   '&:hover': {
     borderWidth: 2,
