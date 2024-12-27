@@ -18,7 +18,7 @@ const Button: React.FC<Props> = ({ children, variant, disabled }) => {
 export default Button;
 
 const StyledButton = styled(MuiButton)(({ theme }) => ({
-  borderRadius: 12,
+  borderRadius: 10,
   borderColor: theme.palette.primary.main,
   borderWidth: 2,
   fontSize: theme.typography.size.lg,
