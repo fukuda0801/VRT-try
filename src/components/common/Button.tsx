@@ -20,7 +20,7 @@ export default Button;
 const StyledButton = styled(MuiButton)(({ theme }) => ({
   borderRadius: 12,
   borderColor: theme.palette.primary.main,
-  borderWidth: 2,
+  borderWidth: 1,
   fontSize: theme.typography.size.lg,
   fontWeight: theme.typography.fontWeightBold,
   height: 48,
